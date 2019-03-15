@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto, serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1, h2, h3, h4{
+  margin: 0 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active{
+  color: inherit;
+}
