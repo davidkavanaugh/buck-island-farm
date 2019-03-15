@@ -1,4 +1,4 @@
-# Small Business Template 
-## Made with React and Material UI, 
+# Buck Island Farm
+## Farm Store Web App
 
-see a demo [here](https://davidkavanaugh.github.io/SmallBusinessTemplate/)
+made with [this react small business template](https://github.com/davidkavanaugh/SmallBusinessTemplate)
