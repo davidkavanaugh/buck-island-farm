@@ -1,5 +1,5 @@
 #section_3{
-    padding: 70px 35px 120px 35px;
+    padding: 70px 35px 300px 35px;
     background: url(../../assets/butcher-paper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90px;
+    margin-top: 25px;
     margin-bottom: -25px;
 }
 .deals{
