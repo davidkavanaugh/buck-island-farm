@@ -30,6 +30,7 @@ async componentDidMount() {
   render() {
     return (
       <div id="section_1" className="fullHeight lineHeight">
+        <div className="vertically-centered">
         <img src={WhiteLogo} alt="large-white-logo" />
             {this.state.miscpages.slice(0, 1).map(miscpage =>
               <div className="home__text">
@@ -48,6 +49,7 @@ async componentDidMount() {
                 </Link>
               </div>
             )}
+            </div>
       </div>
     )
   }

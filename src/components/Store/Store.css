@@ -4,27 +4,27 @@
 }
 
 #snipcart-header{
-    color: white;
-    background: #3F51B5;
+    color: #000000;
+    background: #ffffff;
 }
 #snipcart-header .snip-header__total{
     padding: 0;
     background: transparent;
 }
 #snipcart-header .snip-header__total-label{
-    color: white;
+    color: #000000;
 }
 
 #snipcart-title{
     font-size: 1.5em;
 }
 #snipcart-actions .snip-btn{
-    color: white;
-    background: #3F51B5;
+    color: #000000;
+    background: #ccbc53;
 }
 #snipcart-sub-content .snip-btn{
-    color: white;
-    background: #3F51B5;
+    color: #000000;
+    background: #ccbc53;
 }
 
 #snipcart-sub-content .snip-product__empty{
@@ -48,4 +48,9 @@
 
 .snipcart-checkout.snipcart-summary{
     margin-right: 25px;
+}
+
+#snipcart-close.snip-layout__close{
+color: #000000;
+font-size: 35px;
 }

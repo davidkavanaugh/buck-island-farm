@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Strapi from "strapi-sdk-javascript/build/main";
 import PhoneNumber from '../PhoneNumber/PhoneNumber';
 import './Section3.css';
+import BeefDiagram from '../../assets/beef-diagram.png'
 
 const strapi = new Strapi("https://strapi-cms-lite.herokuapp.com");
 
@@ -27,7 +28,8 @@ async componentDidMount() {
   render() {
     return (
       <div id="section_3" className="fullHeight">
-        <h3>Section 3</h3>
+        <h3 className="section_3__title">The Beef</h3>
+        <img src={BeefDiagram} className="beef-diagram"/>
         <div className="deals">
           {this.state.deals.map(deal =>
             <div className="deals__content">

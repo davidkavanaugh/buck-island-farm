@@ -3,22 +3,32 @@
     padding: 70px 15px 15px 15px;
     font-weight: 400;
     font-size: 1.1em;
-    margin-bottom: 25px;
 }
 
 #blog h3{
     font-weight: 400;
-    font-size: 1.7em;
+    font-size: 2em;
+    margin-bottom: 25px;
+    font-family: 'Special Elite', cursive !important;
+  font-size: 1.7em;
+  line-height: 1.3em;
 }
-
+#blog img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    max-width: 750px;
+}
+#recent-posts{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #blog h5{
     font-weight: 400;
     font-size: 1em; 
     text-decoration: none;
     line-height: 1px;
-}
-#blog img{
-    display: block;
-    margin: auto;
-    max-width: 100%;
+    margin-left: 25px;
 }

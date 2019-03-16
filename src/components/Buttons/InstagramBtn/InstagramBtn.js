@@ -15,10 +15,12 @@ const styles = theme => ({
 function InstagramBtn(props) {
   const { classes } = props;
   return (
-    <div>     
+    <div>  
+      <a href="https://www.instagram.com/buckislandfarmnc/" alt="instagram">   
       <IconButton className={classes.margin}>
           <i className="fab fa-instagram"></i>
       </IconButton>
+      </a>
     </div>
   );
 }

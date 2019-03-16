@@ -49,7 +49,7 @@ const styles = {
                   to="section_2"
                   offset={0}
                   duration={500}
-                >About Us
+                >The Farm
                 </Link>
                 <Link
                   className="navigation__link"
@@ -58,7 +58,7 @@ const styles = {
                   to="section_3"
                   offset={0}
                   duration={500}
-                >Prices
+                >The Beef
                 </Link> 
                 <Link
                   className="navigation__link"

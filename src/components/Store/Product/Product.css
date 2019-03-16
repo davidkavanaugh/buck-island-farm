@@ -5,7 +5,29 @@
 
 .product button{
     margin-bottom: 25px;
+    background-color: #f7e779;
+    color: black;
+    transition: background-color 0.2s;
+    
 }
+.product button:hover, .product button:active{
+    background-color: #ccbc53;
+
+}
+
+
 .product__description{
     margin-top: 25px;
+    width: 100%;
+    max-width: 750px;
+}
+
+.product__information img{
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -15,10 +15,12 @@ const styles = theme => ({
 function FacebookBtn(props) {
   const { classes } = props;
   return (
-    <div>     
+    <div>   
+      <a href="https://www.facebook.com/pages/category/Agriculture/Buck-Island-Farm-NC-198418417435736/" alt="facebook">  
         <IconButton className={classes.margin}>
             <i className="fab fa-facebook-square"></i>
         </IconButton>
+        </a>
     </div>
   );
 }

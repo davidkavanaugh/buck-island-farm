@@ -17,7 +17,7 @@ class Store extends Component {
         <div className="cart-btn">
           <span></span>
           <span></span>
-          <Button variant="outlined" size="small" color="primary" className='snipcart-checkout snipcart-summary'>
+          <Button variant="outlined" size="small" color="inherit" className='snipcart-checkout snipcart-summary'>
           <i className="material-icons">shopping_cart</i>
           cart (<span className="snipcart-total-items"></span>)
           </Button>

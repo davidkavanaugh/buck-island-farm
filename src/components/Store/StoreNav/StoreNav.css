@@ -4,9 +4,10 @@
     padding: 0 0.5rem;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Special Elite', cursive;
 }
 
-.navigation__link:hover,
+#storeNav .navigation__link:hover,
 .navigation__link:active{
     color: gray;
 }

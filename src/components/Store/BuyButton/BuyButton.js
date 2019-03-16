@@ -21,7 +21,6 @@ class BuyButton extends Component {
         return (
             <Button
                 variant="contained"
-                color="default"
                 className="snipcart-add-item BuyButton"
                 data-item-id={this.state.id}
                 data-item-name={this.state.name}

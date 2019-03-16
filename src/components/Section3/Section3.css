@@ -1,14 +1,34 @@
 #section_3{
-    padding: 70px 25px 0px 25px;;
+    padding: 70px 35px 120px 35px;
+    background: url(../../assets/butcher-paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.section_3__title{
+    font-family: 'Permanent Marker', cursive;
+    transform: rotate(-10deg);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.beef-diagram{
+    width: 90%;
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: -25px;
+}
 .deals{
     padding: 35px 35px 15px 35px;
-    max-width: 500px;
-    background-color: black;
-    margin: 25px auto;
+    max-width: 400px;
+    background-color: #282828;
+    margin: 0px auto 50px auto;
     border-radius: 12px;
     color: white;
+    font-family: 'Cabin Sketch', cursive;
 }
 
 .deals__content{
@@ -39,5 +59,9 @@
 
 #section_3 .phonenumber{
 float: right;
-text-align: right;
+text-align: center;
+font-family: 'Permanent Marker', cursive;
+transform: rotate(-20deg);
+font-size: 2em;
+font-weight: 600;
 }
