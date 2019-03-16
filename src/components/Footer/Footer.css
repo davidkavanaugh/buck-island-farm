@@ -8,8 +8,8 @@
 }
 .footer__contact{
     padding-top: 15px;
-    display: inline-flex;
 }
+
 .footer__phone, .footer__email{
     padding: 0 20px;
     font-size: .8rem;

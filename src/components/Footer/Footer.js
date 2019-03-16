@@ -29,14 +29,14 @@ async componentDidMount() {
   render() {
     return (
       <div id="footer">
-        <div className="footer__contact">
+        <div>
           {this.state.miscpages.slice(1, 2).map(miscpage =>
-            <div>
+            <div className="footer__contact">
+              <span className="footer__email lineHeight">{miscpage.email}</span><br />
               <span className="footer__phone lineHeight">{miscpage.phone}</span>
-              <span className="footer__email lineHeight">{miscpage.email}</span> 
             </div>
           )}
-        </div><br />
+        </div>
         <div className="social">
             <InstagramBtn />
             <FacebookBtn />
