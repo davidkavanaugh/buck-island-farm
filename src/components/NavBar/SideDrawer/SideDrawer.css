@@ -1,3 +1,7 @@
-.sidedrawer__store-link{
-    text-decoration: none;
+.sidedrawer-list .side-drawer__link{
+    font-family: 'Special Elite', cursive;
+}
+
+#navBar button{
+    color: darkslategrey;
 }

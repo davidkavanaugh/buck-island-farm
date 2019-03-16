@@ -5,3 +5,7 @@
 .lineHeight{
   line-height: 2.2rem;
 }
+
+#navBar header{
+  background-color: white;
+}

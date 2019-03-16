@@ -54,7 +54,7 @@ class SwipeableTemporaryDrawer extends React.Component {
 
     const sideList = (
       <div className={classes.list}>
-        <List>
+        <List className="sidedrawer-list">
           {['Home'].map((option1, index) => (
             <Link 
               to="section_1"
@@ -63,7 +63,7 @@ class SwipeableTemporaryDrawer extends React.Component {
                   offset={0}
               duration={500}
               key={option1}>
-                <MenuItem 
+                <MenuItem className="side-drawer__link"
                     onClick={this.toggleDrawer('right', false)}>
                     {option1}
                 </MenuItem>
@@ -77,7 +77,7 @@ class SwipeableTemporaryDrawer extends React.Component {
                   offset={0}
               duration={500}
               key={option2}>
-                <MenuItem 
+                <MenuItem className="side-drawer__link"
                   onClick={this.toggleDrawer('right', false)}>
                   {option2}
                 </MenuItem>
@@ -91,7 +91,7 @@ class SwipeableTemporaryDrawer extends React.Component {
                   offset={0}
               duration={500}
               key={option3}>
-                <MenuItem 
+                <MenuItem className="side-drawer__link"
                   onClick={this.toggleDrawer('right', false)}>
                   {option3}
                 </MenuItem>
@@ -99,13 +99,13 @@ class SwipeableTemporaryDrawer extends React.Component {
             ))}
           {['Blog'].map((option4, index) => (
             <Link 
-              to="blog"
+                  to="blog"
                   offset={0}
                   smooth={true}
 
               duration={500}
               key={option4}>
-                <MenuItem 
+                <MenuItem className="side-drawer__link"
                   onClick={this.toggleDrawer('right', false)}>
                   {option4}
                 </MenuItem>
@@ -113,13 +113,12 @@ class SwipeableTemporaryDrawer extends React.Component {
           ))}
           {['Store'].map((option5, index) => (
             <a href="/product"
-              className="sidedrawer__store-link"
               smooth={true}
 
                   offset={0}
               duration={500}
               key={option5}>
-                <MenuItem 
+                <MenuItem className="side-drawer__link"
                   onClick={this.toggleDrawer('right', false)}>
                   {option5}
                 </MenuItem>

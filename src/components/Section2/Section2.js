@@ -51,7 +51,7 @@ async componentDidMount() {
                 )}
               {this.state.miscpages.slice(1, 2).map(miscpage =>
                   <div>
-                    <article><Markdown>{miscpage.content}</Markdown></article>
+                    <article id="about-us"><Markdown>{miscpage.content}</Markdown></article>
                     <h4 className="phonenumber lineHeight">{miscpage.phone}</h4>
                     <h4 className="emailaddress lineHeight">{miscpage.email}</h4> 
                   </div>

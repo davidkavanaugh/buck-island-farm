@@ -5,6 +5,7 @@ import { Link } from 'react-scroll'
 
 
 import './Logo.css';
+import LogoImg from '../../../assets/farmlogo.jpg';
 
 const styles = {
     root: {
@@ -27,7 +28,7 @@ class Logo extends Component {
                   offset={0}
                   duration={500}
                 >
-                Logo
+                <img className="farm-logo" src={LogoImg} alt="farm logo" />
             </Link>
         </Typography>
       )

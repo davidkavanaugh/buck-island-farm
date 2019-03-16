@@ -1,5 +1,5 @@
-.navigation__link{
-    color: white;
+#storeNav .navigation__link{
+    color: black;
     transition: color 0.5s;
     padding: 0 0.5rem;
     cursor: pointer;
@@ -8,5 +8,9 @@
 
 .navigation__link:hover,
 .navigation__link:active{
-    color: lightgrey;
+    color: gray;
+}
+
+#storeNav header{
+    background-color: white;
 }

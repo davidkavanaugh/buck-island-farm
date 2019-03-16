@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 
 import './Section1.css';
-
+import WhiteLogo from '../../assets/biglogo-white.png'
 
 const strapi = new Strapi("https://strapi-cms-lite.herokuapp.com");
 
@@ -30,6 +30,7 @@ async componentDidMount() {
   render() {
     return (
       <div id="section_1" className="fullHeight lineHeight">
+        <img src={WhiteLogo} alt="large-white-logo" />
             {this.state.miscpages.slice(0, 1).map(miscpage =>
               <div className="home__text">
                 <h1>{miscpage.title}</h1>
@@ -41,7 +42,7 @@ async componentDidMount() {
                   duration={500}>
                   <Button className="section-1__button"
                     variant="outlined" 
-                    color="primary">
+                    color="inherit">
                     {miscpage.buttontext}
                   </Button>
                 </Link>

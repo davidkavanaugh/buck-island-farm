@@ -1,3 +1,8 @@
 #logo{
     cursor: pointer;
 }
+
+.farm-logo{
+    height: 40px;
+    vertical-align: middle;
+}

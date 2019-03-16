@@ -2,14 +2,16 @@
     width: 100%;
 }
 
-.navigation__link{
-    color: white;
+#navBar .navigation__link{
+    color: black;
     transition: color 0.5s;
-    padding: 0 0.5rem;
+    padding: 0 0.7rem;
     cursor: pointer;
+    font-family: 'Special Elite', cursive;
+    font-size: 1em;
 }
 
-.navigation__link:hover,
-.navigation__link:active{
-    color: lightgrey;
+#navBar .navigation__link:hover,
+#navBar .navigation__link:active{
+    color: gray;
 }
