@@ -1,17 +1,7 @@
-#storeNav .navigation__link{
-    color: black;
-    transition: color 0.5s;
-    padding: 0 0.5rem;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: 'Special Elite', cursive;
-}
-
-#storeNav .navigation__link:hover,
-.navigation__link:active{
-    color: gray;
-}
-
 #storeNav header{
     background-color: white;
+}
+
+.cart-btn{
+    color: black;
 }

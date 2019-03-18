@@ -5,6 +5,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Headroom from 'react-headroom';
 import Logo from './Logo/Logo';
+import Button from '@material-ui/core/Button';
+
 
 import './StoreNav.css';
 
@@ -27,13 +29,13 @@ const styles = {
         <AppBar position="static">
           <Toolbar>
             <Logo />
-                <a
-                  className="navigation__link"
-                  href="/"
-                  offset={0}
-                  duration={500}
-                >Home
-                </a>  
+            <span className="spacer"></span>
+            <div className="cart-btn">
+              <Button variant="outlined" size="small" color="inherit" className='snipcart-checkout snipcart-summary'>
+                <i className="material-icons">shopping_cart</i>
+                cart (<span className="snipcart-total-items"></span>)
+              </Button>
+            </div>
           </Toolbar>
         </AppBar>
       </div>

@@ -38,17 +38,6 @@
     display:none;
 }
 
-.cart-btn{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: absolute;
-    margin-top: 25px;
-}
-
-.snipcart-checkout.snipcart-summary{
-    margin-right: 25px;
-}
 
 #snipcart-close.snip-layout__close{
 color: #000000;

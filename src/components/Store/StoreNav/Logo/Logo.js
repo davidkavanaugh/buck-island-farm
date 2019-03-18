@@ -21,14 +21,11 @@ class Logo extends Component {
     const { classes } = this.props;
       return (
         <Typography variant="h6" color="inherit" className={classes.grow}>
-            <Link id="logo"
-                  to="store"
-                  smooth={true}
-                  offset={0}
-                  duration={500}
+            <a id="logo"
+                  href="/"
                 >
                 <img className="farm-logo" src={LogoImg} alt="farm logo" />
-            </Link>
+            </a>
         </Typography>
       )
     }
