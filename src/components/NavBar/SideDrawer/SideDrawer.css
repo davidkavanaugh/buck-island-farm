@@ -1,5 +1,7 @@
 .sidedrawer-list .side-drawer__link{
     font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+    padding: 15px 15px;
 }
 
 #navBar button{
