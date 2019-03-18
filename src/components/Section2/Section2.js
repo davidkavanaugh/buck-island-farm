@@ -33,24 +33,24 @@ async componentDidMount() {
         <section>
           <Hidden xsDown>
           {this.state.miscpages.slice(1, 2).map(miscpage =>
-                <div className="column">
+                <div className="column" key={miscpage.id}>
               <img src={`https://strapi-cms-lite.herokuapp.com${miscpage.image.url}`} alt={miscpage.title} className="section2__photo1"/><br />
               </div>
               )}
           </Hidden>
           <div className="column">
               {this.state.miscpages.slice(1, 2).map(miscpage =>
-                <div className="column">
+                <div className="column" key={miscpage.id}>
                 <h3 className="section2__title">{miscpage.title}</h3>
               </div>
               )}
               {this.state.miscpages.slice(1, 2).map(miscpage =>
-                <Hidden smUp>
+                <Hidden smUp key={miscpage.id}>
                   <img src={`https://strapi-cms-lite.herokuapp.com${miscpage.image.url}`} alt={miscpage.title} className="section2__photo1"/><br />
                 </Hidden>
                 )}
               {this.state.miscpages.slice(1, 2).map(miscpage =>
-                  <div>
+                  <div key={miscpage.id}>
                     <article id="about-us"><Markdown>{miscpage.content}</Markdown></article>
                     <h4 className="phonenumber lineHeight">{miscpage.phone}</h4>
                     <h4 className="emailaddress lineHeight">{miscpage.email}</h4> 

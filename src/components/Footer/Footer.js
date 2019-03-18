@@ -31,7 +31,7 @@ async componentDidMount() {
       <div id="footer">
         <div>
           {this.state.miscpages.slice(1, 2).map(miscpage =>
-            <div className="footer__contact">
+            <div className="footer__contact" key={miscpage.id}>
               <span className="footer__email lineHeight">{miscpage.email}</span><br />
               <span className="footer__phone lineHeight">{miscpage.phone}</span>
             </div>

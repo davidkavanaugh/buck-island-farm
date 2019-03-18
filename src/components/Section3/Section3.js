@@ -29,10 +29,10 @@ async componentDidMount() {
     return (
       <div id="section_3" className="fullHeight">
         <h3 className="section_3__title">The Beef</h3>
-        <img src={BeefDiagram} className="beef-diagram"/>
+        <img src={BeefDiagram} className="beef-diagram" alt="" />
         <div className="deals">
           {this.state.deals.map(deal =>
-            <div className="deals__content">
+            <div className="deals__content" key={deal.id}>
               <div className="deal__name-and-description">
                 <span className="deal__name">{deal.item}</span><br />
                 <span className="deal__description">{deal.description}</span>

@@ -24,7 +24,7 @@ render() {
     return (
       <div>
           {this.state.miscpages.map(miscpage =>
-            <div>
+            <div key={miscpage.id}>
                 {miscpage.phone}
             </div>
             )}

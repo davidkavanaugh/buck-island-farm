@@ -33,7 +33,7 @@ async componentDidMount() {
         <div className="vertically-centered">
         <img src={WhiteLogo} alt="large-white-logo" />
             {this.state.miscpages.slice(0, 1).map(miscpage =>
-              <div className="home__text">
+              <div className="home__text" key={miscpage.id}>
                 <h1>{miscpage.title}</h1>
                 <h2>{miscpage.subtitle}</h2>
                 <Link 

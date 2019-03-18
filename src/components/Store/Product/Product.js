@@ -26,7 +26,7 @@ class Product extends Component {
         <a href="/product"><Button variant="contained" size="small" color="primary">back</Button></a>   
           <div className="product__information">
             <h2 className="product__title">{this.state.product.name}</h2>
-            <img src={`https://strapi-cms-lite.herokuapp.com/${this.state.product.image.url}`} />
+            <img src={`https://strapi-cms-lite.herokuapp.com/${this.state.product.image.url}`} alt="" />
             <br /><BuyButton {...this.state} />
           </div>
           <div className="product__description">
