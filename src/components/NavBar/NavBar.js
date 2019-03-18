@@ -38,7 +38,7 @@ const styles = {
                   smooth={true}
 
                   to="section_1"
-                  offset={0}
+                  offset={-65}
                   duration={500}
                 >Home
                 </Link>
