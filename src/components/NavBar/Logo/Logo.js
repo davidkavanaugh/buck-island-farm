@@ -25,7 +25,7 @@ class Logo extends Component {
             <Link id="logo"
                   to="section_1"
                   smooth={true}
-                  offset={0}
+                  offset={-65}
                   duration={500}
                 >
                 <img className="farm-logo" src={LogoImg} alt="farm logo" />

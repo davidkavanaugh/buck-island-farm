@@ -60,7 +60,7 @@ class SwipeableTemporaryDrawer extends React.Component {
               to="section_1"
               smooth={true}
 
-                  offset={0}
+                  offset={-65}
               duration={500}
               key={option1}>
                 <MenuItem className="side-drawer__link"
